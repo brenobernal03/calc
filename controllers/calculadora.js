@@ -24,21 +24,297 @@ module.exports = function() {
 				},
 				
 				somar: function(numero1, numero2) {
-					return numero2 + numero1;
+
+                    resultado = numero2 + numero1;
+                    return resultado;
 				},
 				
 				subtrair: function(numero1, numero2) {
-					return numero1-numero2;
+                    resultado = 0;
+                    resultado = numero1-numero2;
+                    return resultado;
 				},
 				
 				multiplicar: function(numero1, numero2) {
-					return numero1 * numero2;
+                    resultado = 0;
+                    resultado = numero1 * numero2;
+                    return resultado;
 				},
 				
 				dividir: function(numero1, numero2) {
-					return numero1 / numero2;
-				}
-			},
+                    resultado = 0;
+                    resultado = numero1 / numero2;
+                    return resultado;
+				},
+
+                elevarQuadrado: function(numero1){
+                    resultado = 0;
+                    resultado =  numero1 * numero1;
+                    return resultado;
+                },
+
+                elevarCubo: function(numero1){
+                    resultado = 0;
+                    resultado = numero1 * numero1 * numero1;
+                    return resultado;
+                },
+
+
+
+                metade: function(numero1){
+                    resultado = 0;
+                    resultado = numero1 / 2;
+                    return resultado;
+                },
+
+                diasHoras: function(numero1){
+                    resultado = 0;
+                    resultado = numero1 * 24;
+                    return resultado;
+                },
+
+                horasMinutos: function(numero1){
+                    resultado = 0;
+                    resultado =  numero1 * 60;
+                    return resultado;
+
+                },
+
+                minutosSegundos: function(numero1){
+                    resultado = 0;
+                    resultado  = numero1 * 60;
+                    return resultado;
+                },
+
+                realDolar: function(numero1){
+                    resultado = 0;
+                    resultado = numero1 * 3;
+                    return resultado;
+                },
+
+                dolarReal: function(numero1){
+                    resultado = 0;
+                    resultado = numero1 /3;
+                    return resultado;
+                },
+
+                celsiusKelvin: function(numero1) {
+                    resultado = 0;
+                    resultado = numero1 + 273;
+                    return resultado;
+                },
+
+                juros: function (numero1, numero2){
+                    resultado = 0;
+
+                    resultado = (numero1 +(numero1 * (15/100)));
+                    return resultado;
+                },
+
+                idade: function (numero1){
+                    resultado = 0;
+                    resultado = 2015 -numero1;
+                    return resultado;
+                },
+
+                maior: function (numero1, numero2){
+                    resultado = 0;
+                    if(numero1 > numero2)
+                    {
+                        resultado = numero1;
+                    }
+
+                    if(numero1 < numero2)
+                    {
+                        resultado = numero2;
+                    }
+                    return resultado;
+                },
+
+                menor: function (numero1, numero2){
+                    resultado = 0;
+                    if(numero1 < numero2)
+                    {
+                        resultado = numero1;
+                    }
+
+                    if(numero1 > numero2)
+                    {
+                        resultado = numero2;
+                    }
+                    return resultado;
+                },
+
+                media: function (numero1, numero2)
+                {
+                    resultado = 0;
+                    resultado = numero1 + numero2;
+                    resultado = resultado / 2;
+                    return resultado;
+
+                },
+
+                menor2: function (numero1, numero2){
+                    resultado = 0;
+                    if(numero1 < numero2)
+                    {
+                        resultado = numero1;
+                    }
+
+                    if(numero1 > numero2)
+                    {
+                        resultado = numero2;
+                    }
+                    return resultado;
+                },
+
+                somarMultaLivroapos30dias: function(numero1) {
+
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    return resultado;
+                },
+
+                somaMultaObraReferenciaApos40dias: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    return resultado;
+                },
+
+                somaMultaObraReferenciaApos40dias2: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    return resultado;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            },
 			
 			validaParametro: function(parametro) {
 				if(parametro && parametro !== '') {
@@ -81,7 +357,8 @@ module.exports = function() {
 			
 			dividir: function(request, response) {
 				response.render('dividir');
-			}
+			},
+
 		},
 		
 		post: {
